@@ -1,15 +1,12 @@
 /*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
+  
 */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #000000;
+  background: rgb(0, 0, 0);
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -354,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #000000;
+  color: #ff0202;
 }
 
 .nav-menu > li {
@@ -514,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -553,13 +550,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f7f7f7;
+  background: #000000;
 }
 
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background: rgb(255, 255, 255);
 }
 
 #featured-services .box {
@@ -571,7 +568,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #featured-services i {
-  color: #000000;
+  color: #ffffff;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -614,7 +611,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(0, 0, 0, 0.92);
   z-index: 9;
 }
 
@@ -647,7 +644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #000000;
   border-radius: 50%;
   text-align: center;
-  border: 4px solid #fff;
+  border: 4px solid rgb(0, 0, 0);
   left: calc( 50% - 32px);
   bottom: -30px;
   transition: 0.3s;
@@ -656,7 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-col i {
   font-size: 36px;
   line-height: 1;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.3s;
 }
 
@@ -688,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-col p {
   font-size: 14px;
   line-height: 24px;
-  color: #333;
+  color: rgb(0, 0, 0);
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
@@ -696,7 +693,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: #fff;
+  background: rgb(0, 0, 0);
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -1207,7 +1204,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #contact .contact-info h3 {
@@ -1219,7 +1216,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #contact .contact-info a:hover {
