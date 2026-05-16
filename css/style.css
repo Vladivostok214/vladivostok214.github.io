@@ -456,32 +456,96 @@ section {
 }
 
 
-/* --- Mobile --- */
+/* --- Mobile Navigation & Overlays --- */
 #mobile-nav-toggle {
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  line-height: 1;
 }
 
 @media (max-width: 991px) {
-  .nav-menu {
-    display: none; /* Mobile menu logic handled in JS */
+  #header {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.9);
   }
+  
+  #header #logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  
   .nav-menu.mobile-nav-active {
     display: flex;
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: var(--bg-color);
+    background: #000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
     z-index: 999;
+    padding: 2rem;
   }
+  
   .nav-menu.mobile-nav-active a {
     font-size: 2rem;
+    font-weight: 800;
   }
+
+  /* --- Mobile Typography & Spacing --- */
+  #intro h1 {
+    font-size: clamp(3.5rem, 15vw, 6rem);
+    line-height: 0.9;
+  }
+  
+  .btn-play-large {
+    width: 110px;
+    height: 110px;
+    font-size: 2rem;
+  }
+
+  .section-header h3 {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
+
+  section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .about-col {
+    margin-bottom: 2rem;
+  }
+  
+  #services .box {
+    margin-bottom: 1rem;
+    padding: 2rem;
+  }
+
+  #footer .footer-top {
+    text-align: center;
+  }
+  
+  #footer .footer-links ul i {
+    display: none;
+  }
+  
+  #footer .social-links {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+/* Ensure no horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* Clean up template debris */
