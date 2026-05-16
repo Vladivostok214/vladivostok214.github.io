@@ -148,7 +148,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5%;
+  padding: 100px 5% 0; /* Added top padding to account for fixed header */
   background: url('../img/intro-carousel/1.png') no-repeat center center;
   background-size: cover;
   position: relative;
