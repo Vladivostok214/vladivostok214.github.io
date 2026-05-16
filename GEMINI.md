@@ -1,43 +1,42 @@
 # GEMINI.md - Radio Caleuche Online
 
 ## Project Overview
-**Radio Caleuche Online** is a landing page for an insular communication platform based in Chilwé. It is built using the **BizPage** Bootstrap business template from [BootstrapMade](https://bootstrapmade.com/).
+**Radio Caleuche Online** is a vanguard landing page for an insular communication platform based in Chilwé. It features a custom high-impact "Minimalismo Vanguardista" (Swiss Style) design.
 
-The project is a static website focused on audio streaming and content delivery (podcasts, news, artists).
+The project is a static website optimized for performance, SEO, and a premium "Dark Mode" audio streaming experience.
+
+### Core Design Mandates
+- **Style:** Minimalismo Vanguardista / Swiss Design.
+- **Color Palette:** Rich Black (`#0a0a0a`), True White (`#ffffff`), and Signal Red (`#ff0033`) for active states.
+- **Typography:** Montserrat (weights 200, 400, 700, 900) for high-impact headers; Open Sans for body text.
+- **Layout:** Massive typography, extreme negative space, and a centered, dominant custom audio player.
 
 ### Core Technologies
-- **HTML5 / CSS3**: Main structure and styling.
-- **Bootstrap 4**: Responsive grid and UI components.
-- **jQuery**: DOM manipulation and library integration.
-- **Libraries**:
-    - `animate.css`: Animations.
-    - `wow.js`: Reveal animations on scroll.
-    - `owlcarousel`: Carousels and sliders.
-    - `superfish`: Navigation menu.
-    - `lightbox`: Image gallery.
-    - `isotope`: Portfolio filtering.
+- **HTML5 / CSS3:** Modern grid-less (flexbox based) responsive structure.
+- **JavaScript (jQuery):** Minimalist custom logic for the audio player and smooth navigation.
+- **SVG Favicon:** High-contrast dynamic SVG icon.
 
 ## Building and Running
-Since this is a static site without a build step (no `package.json` or `Makefile` found), you can run it directly in a browser.
+This is a high-performance static site. No build step required.
 
 ### Local Development
-- **Live Server**: Use a local server like "Live Server" (VS Code extension) or `npx serve .` to preview the site.
-- **Direct Access**: Open `index.html` in any modern web browser.
+- **Preview:** Use `npx serve .` or any static file server.
+- **URL:** `index.html` is the entry point.
 
 ## Project Structure
-- `index.html`: The main entry point and single-page structure.
-- `css/`: Contains `style.css` for custom styling.
-- `js/`: Contains `main.js` with theme initialization and custom logic.
-- `lib/`: External vendor libraries (Bootstrap, jQuery, etc.).
-- `img/`: Images, icons, and carousel assets.
-- `contactform/`: PHP/JS files for handling contact form submissions.
+- `index.html`: Optimized semantic HTML5 entry point.
+- `css/style.css`: Vanguard CSS using custom variables and fluid typography (`clamp()`).
+- `js/main.js`: Optimized UI logic (Player control, scroll management).
+- `img/`: Optimized assets (Redundant files removed).
+- `lib/`: Minimum necessary external vendor libraries.
 
 ## Development Conventions
-- **Static Assets**: All CSS, JS, and Library assets are linked in `index.html`.
-- **Theme Modification**: Custom logic should be added to `js/main.js` and styles to `css/style.css`.
-- **Audio Streaming**: The site currently features a Zeno.fm stream: `http://stream.zeno.fm/x0adt3x1ey8uv`.
+- **CSS First:** Use CSS variables in `:root` for all design tokens.
+- **Mobile First:** Ensure any changes maintain the `100vw` zero-overflow mandate.
+- **Audio Logic:** Player controls are custom-built in `js/main.js`; do not use native `<audio>` controls.
+- **SEO & Social:** Always maintain the Open Graph and Twitter Card tags in `index.html`.
 
-## TODO / Roadmap
-- [ ] Migrate to a modern build system (e.g., Vite) if more complexity is added.
-- [ ] Ensure all external links (Google Fonts) are loaded securely.
-- [ ] Optimize images in `img/` for faster loading.
+## Performance Standards
+- **Minification:** Keep `style.css` and `main.js` lightweight.
+- **Asset Weight:** Do not add unoptimized images. Prefer SVG for icons.
+- **Responsiveness:** Maintain full horizontal navigation on all screens (no hamburger menu per user preference).
